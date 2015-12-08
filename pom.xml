@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.elasticsearch</groupId>
+    <groupId>tv.kazu</groupId>
     <artifactId>elasticsearch-mapper-attachments</artifactId>
-    <version>3.0.4-SNAPSHOT</version>
+    <version>3.0.4</version>
     <name>Elasticsearch Mapper Attachment plugin</name>
     <description>The mapper attachments plugin adds the attachment type to Elasticsearch using Apache Tika.</description>
-    <url>https://github.com/elastic/elasticsearch-mapper-attachments/</url>
+    <url>https://github.com/k4200/elasticsearch-mapper-attachments/</url>
     <inceptionYear>2009</inceptionYear>
     <licenses>
         <license>
@@ -19,9 +17,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:elastic/elasticsearch-mapper-attachments.git</connection>
-        <developerConnection>scm:git:git@github.com:elastic/elasticsearch-mapper-attachments.git</developerConnection>
-        <url>http://github.com/elastic/elasticsearch-mapper-attachments</url>
+        <connection>scm:git:git@github.com:k4200/elasticsearch-mapper-attachments.git</connection>
+        <developerConnection>scm:git:git@github.com:k4200/elasticsearch-mapper-attachments.git</developerConnection>
+        <url>http://github.com/k4200/elasticsearch-mapper-attachments</url>
     </scm>
 
     <parent>
